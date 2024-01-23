@@ -34,3 +34,5 @@ const ProductSchema = new mongoose.Schema({
     // },
   },
 }); // ProductSchema  is a class  that we can use to create new objects that will be stored in the database
+
+module.exports = mongoose.model('Product', ProductSchema);
